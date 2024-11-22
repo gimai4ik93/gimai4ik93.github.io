@@ -1,0 +1,606 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "GTR 4",
+    "WatchFaceId": 7447911,
+    "Preview": "0002"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 466,
+        "h": 466,
+        "src": "0001",
+        "alpha": 255
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 161,
+          "Y": 116,
+          "img_First": "0116",
+          "image_length": 0,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 161,
+          "Y": 76,
+          "img_First": "0104",
+          "image_length": 0,
+          "alpha": 255,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "ElementAnimation",
+        "visible": true,
+        "Frame_Animation_List": {
+          "position": 1,
+          "selected_animation": 0,
+          "visible": true,
+          "Frame_Animation": [
+            {
+              "visible": true,
+              "show_level": "ONLY_NORMAL",
+              "x": 170,
+              "y": 304,
+              "anim_src": "men_0",
+              "anim_prefix": "men",
+              "anim_fps": 25,
+              "anim_repeat": true,
+              "preview_frame": 1,
+              "anim_size": 28
+            },
+            {
+              "visible": true,
+              "show_level": "ONLY_NORMAL",
+              "x": 404,
+              "y": 313,
+              "anim_src": "heart_0",
+              "anim_prefix": "heart",
+              "anim_fps": 2,
+              "anim_repeat": true,
+              "preview_frame": 1,
+              "anim_size": 2
+            }
+          ]
+        }
+      },
+      {
+        "elementName": "ElementHeart",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 328,
+          "imageY": 309,
+          "space": -2,
+          "zero": false,
+          "img_First": "0090",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "DateYear",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 332,
+          "imageY": 82,
+          "space": 0,
+          "zero": true,
+          "img_First": "0080",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "YEAR"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 323,
+          "imageY": 356,
+          "space": -2,
+          "zero": false,
+          "img_First": "0068",
+          "unit": "0079",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementCalories",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 144,
+          "imageY": 418,
+          "space": -1,
+          "zero": false,
+          "img_First": "0068",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementDistance",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 239,
+          "imageY": 418,
+          "space": -1,
+          "zero": false,
+          "img_First": "0068",
+          "unit": "0003",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "dot_image": "0078",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementWeather_v2",
+        "visible": true,
+        "Group_Current": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "",
+            "imageX": 82,
+            "imageY": 302,
+            "space": -3,
+            "zero": false,
+            "img_First": "0055",
+            "unit": "0067",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "negative_image": "0065",
+            "invalid_image": "0066",
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 9,
+          "Y": 205,
+          "img_First": "0124",
+          "image_length": 29,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 207,
+          "imageY": 299,
+          "space": -3,
+          "zero": false,
+          "img_First": "0045",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 87,
+          "imageY": 98,
+          "space": -3,
+          "zero": true,
+          "img_First": "0035",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Alarm": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 24,
+          "y": 180,
+          "src": "0154",
+          "alpha": 255,
+          "type": "Alarm"
+        },
+        "Bluetooth": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 211,
+          "y": 11,
+          "src": "0153",
+          "alpha": 255,
+          "type": "Bluetooth"
+        }
+      },
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Second": {
+          "position": 4,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 332,
+            "imageY": 166,
+            "space": 0,
+            "zero": true,
+            "img_First": "0025",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Minute": {
+          "position": 3,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 231,
+            "imageY": 167,
+            "space": -3,
+            "zero": true,
+            "img_First": "0015",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Hour": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 66,
+            "imageY": 167,
+            "space": -7,
+            "zero": true,
+            "img_First": "0005",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "AmPm": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "am_x": 336,
+          "am_y": 257,
+          "am_img": "0100",
+          "pm_x": 336,
+          "pm_y": 257,
+          "pm_img": "0101"
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0003",
+          "center_x": 0,
+          "center_y": 0,
+          "pos_x": 0,
+          "pos_y": 0,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_path": "0102",
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Elements": [
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_AOD",
+          "X": 111,
+          "Y": 150,
+          "img_First": "0116",
+          "image_length": 0,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_AOD",
+          "X": 112,
+          "Y": 107,
+          "img_First": "0104",
+          "image_length": 0,
+          "alpha": 255,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_AOD",
+          "imageX": 126,
+          "imageY": 53,
+          "space": -3,
+          "zero": true,
+          "img_First": "0035",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Minute": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_AOD",
+            "imageX": 287,
+            "imageY": 233,
+            "space": -3,
+            "zero": true,
+            "img_First": "0015",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Hour": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_AOD",
+            "imageX": 122,
+            "imageY": 233,
+            "space": -7,
+            "zero": true,
+            "img_First": "0005",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_AOD",
+          "src": "0003",
+          "center_x": 0,
+          "center_y": 0,
+          "pos_x": 0,
+          "pos_y": 0,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_path": "0102",
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "DisconnectAlert": {
+    "enable": true,
+    "BluetoothOff": {
+      "vibrate": true,
+      "vibrateType": 9,
+      "toastShow": true,
+      "toastText": "А где телефон ?"
+    }
+  },
+  "Shortcuts": {
+    "elementName": "ElementShortcuts",
+    "visible": true,
+    "Step": {
+      "position": 1,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 174,
+      "y": 295,
+      "w": 145,
+      "h": 51,
+      "src": "0003",
+      "type": "STEP"
+    },
+    "Heart": {
+      "position": 2,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 322,
+      "y": 294,
+      "w": 114,
+      "h": 52,
+      "src": "0003",
+      "type": "HEART"
+    },
+    "Weather": {
+      "position": 3,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 79,
+      "y": 346,
+      "w": 240,
+      "h": 35,
+      "src": "0003",
+      "type": "WEATHER_CURRENT"
+    },
+    "Countdown": {
+      "position": 4,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 225,
+      "y": 164,
+      "w": 96,
+      "h": 74,
+      "type": "COUNT_DOWN"
+    },
+    "Alarm": {
+      "position": 5,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 63,
+      "y": 163,
+      "w": 159,
+      "h": 124,
+      "src": "0003",
+      "type": "ALARM_CLOCK"
+    }
+  }
+}
